@@ -1,2 +1,2 @@
 # PickFlicks
-AI based movie recommendation system using Cosine Similarity.
+AI based movie recommendation system using Content Based Filtering through Cosine Similarity Matrix.
