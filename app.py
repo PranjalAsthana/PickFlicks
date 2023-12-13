@@ -6,6 +6,7 @@ import requests
 st.title("PickFlicks:film_projector:")
 
 st.sidebar.markdown(":orange[App made by] :gray[-] :orange[[Pranjal Asthana](https://github.com/PranjalAsthana)]")
+st.sidebar.markdown(":orange[[Please Support PlotPilot on Github](https://github.com/PranjalAsthana/PickFlicks)]")
 
 def fetchposter(movie_id):
     response = requests.get('https://api.themoviedb.org/3/movie/{}?api_key=8265bd1679663a7ea12ac168da84d2e8&language=en-US'.format(movie_id))
